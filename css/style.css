@@ -42,7 +42,7 @@
    margin-top: 30px;
 }
 img{
-    max-height: 85%;
+   height: 85%;
    width: 100%;
    object-fit: cover;
 }
