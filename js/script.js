@@ -73,14 +73,17 @@ let immagine=document.getElementById("immagine").value
     console.log(nome)
     console.log(professione)
     console.log(immagine)
-    dati.push({
-        name:nome,
-        role:professione,
-        image:immagine
-    })
-    console.log(dati)
-    const card7= document.createElement("div")
-    card7.classList.add("card")
-    card7.innerHTML=`<img src="./img/${dati[dati.length-1].image}" alt=""> <br>${dati[dati.length-1].name}<br>${dati[dati.length-1].role}`
-    appendi.append(card7)
+    if(!nome == "" && !professione == "" && !immagine== ""){
+        dati.push({
+            name:nome,
+            role:professione,
+            image:immagine
+        })
+        console.log(dati)
+        const card7= document.createElement("div")
+        card7.classList.add("card")
+        card7.innerHTML=`<img src="./img/${dati[dati.length-1].image}" alt=""> <br>${dati[dati.length-1].name}<br>${dati[dati.length-1].role}`
+        appendi.append(card7)
+    }
+   
 })
