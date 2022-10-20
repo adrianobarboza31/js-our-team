@@ -1,0 +1,69 @@
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.contenitore{
+    width: 1200px;
+    background-color: #F5F5DC;
+}
+.centro{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.center{
+    text-align: center;
+}
+.corto{
+    width:40%;
+    margin: auto;
+}
+.blu{
+    margin-top: 40px;
+}
+.giu{
+    padding-top: 20px;
+}
+.grande{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: -10px;
+}
+.card{
+    width: calc((100% - 20px)/ 3);
+    text-align: center;
+    background-color: white;
+    padding: 0 10px;
+   height: 300px;
+   margin-top: 30px;
+}
+img{
+    max-height: 85%;
+   width: 100%;
+   object-fit: cover;
+}
+.flex{
+    display: flex;
+}
+.between{
+    justify-content: space-between;
+}
+.form{
+    width: 40%;
+}
+input{
+    width: 200px;
+}
+label{
+    font-weight: bolder;
+}
+button{
+    padding: 5px 20px;
+}
+.mb{
+    margin-top: 20px
+}
